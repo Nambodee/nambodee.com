@@ -1,0 +1,25 @@
+.result {
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 6px;
+  white-space: pre-line;
+  font-size: 0.65rem;           /* 🔼 ขนาดตัวอักษรใหญ่ขึ้นเฉพาะผลลัพธ์ */
+  line-height: 1.3;             /* 🔼 ระยะห่างอ่านง่ายขึ้น */
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  flex-grow: 0;                 /* ปิดการขยายพื้นที่ */
+  overflow-y: visible;          /* ❌ ยกเลิก scroll */
+  min-height: 100px;            /* ✅ ตั้งความสูงขั้นต่ำให้ดูใหญ่ */
+}
+
+#resultAhu {
+  background-color: #e8f4f8;
+  color: #004d66;
+  border: 1px solid #b3e0f2;
+}
+
+#resultDew {
+  background-color: #f0f8e8;
+  color: #4a7c00;
+  border: 1px solid #c9e6b9;
+}
